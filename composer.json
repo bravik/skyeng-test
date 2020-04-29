@@ -1,0 +1,19 @@
+{
+    "name": "unkar/skyengtest",
+    "authors": [
+        {
+            "name": "Roman Naumenko",
+            "email": "naumenko_subscr@mail.ru"
+        }
+    ],
+    "require": {
+        "psr/cache": "^1.0",
+        "psr/log": "^1.1",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/"
+        }
+    }
+}
